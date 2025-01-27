@@ -1,0 +1,1 @@
+import{d as r}from"./index-DHvzi6t0.js";const n=r("answers",{state:()=>({allAnswers:{}}),actions:{updateAnswers(s){this.allAnswers[s.name]=s.data,console.log("Updated answers:",this.allAnswers)},clearAnswers(){this.allAnswers={}}},getters:{getAnswersByName:s=>e=>s.allAnswers[e],getAllAnswers:s=>s.allAnswers},persist:!0});export{n as u};
